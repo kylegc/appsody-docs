@@ -1,5 +1,7 @@
 ---
 title: "Installing Appsody"
+path: /docs/getting-started/installation
+section: Getting Started
 ---
 # Installing Appsody
 
@@ -12,17 +14,17 @@ Currently, Appsody provides pre-built binary releases for four platforms:
 4) Windows 10 - which is the only Windows platform where Appsody runs
 
 ## Prerequisites
-You should have Docker installed and the Docker daemon running on your system. Appsody will install even if Docker isn't installed or running - however, you will not be able to use Appsody until Docker is running.
+
+You should have [Docker](https://docs.docker.com/get-started/) installed and the Docker daemon running on your system. Appsody will install even if Docker isn't installed or running - however, you will not be able to use Appsody until Docker is running.
 
 ## Installing on macOS
-You should have Docker installed and running, although the Appsody installation will complete even if Docker isn't up and running on your system.
+Ensure the [prerequisites](#Prerequisites) are met.
 
 Run these two commands: 
 ```
 brew tap appsody/appsody
 brew install appsody
 ```
-
 
 If you have not installed the Xcode Command Line Tools, you may see an error message stating: 
 ```
@@ -39,7 +41,8 @@ brew install appsody
 To remove Appsody, run `brew uninstall appsody`. You may also want to remove the `.appsody` directory that gets created under your home dir: `rm -rf ~/.appsody`.
 
 ## Installing on Ubuntu
-You should have Docker installed and running, although the Appsody installation will complete even if Docker isn't up and running on your system.
+
+Ensure the [prerequisites](#Prerequisites) are met.
 
 You should also make sure that **your user is a member of the `docker` group**. This is necessary for Appsody to run correctly.
 
@@ -54,7 +57,8 @@ Make sure you specify the path to the package file.
 To uninstall Appsody, run: `sudo apt remove appsody`. You may also want to remove the `.appsody` directory that gets created under your home directory: `rm -rf ~/.appsody`
 
 ## Installing on RHEL
-You should have Docker installed and running, although the Appsody installation will complete even if Docker isn't up and running on your system.
+
+Ensure the [prerequisites](#Prerequisites) are met.
 
 You should also make sure that **your user is a member of the `docker` group**. This is necessary for Appsody to run correctly. We do realize that having your user id part of the `docker` group isn't common practice on RHEL - however, at present, this is a requirement for Appsody to run successfully.
 
@@ -70,7 +74,8 @@ To uninstall Appsody, run: `sudo yum remove appsody`. You may also want to remov
 
 ## Installing on Windows
 Note, Appsody only runs on Windows 10. 
-You should have Docker installed and running, although the Appsody installation will complete even if Docker isn't up and running on your system.
+
+Ensure the [prerequisites](#Prerequisites) are met.
 
 Follow these steps: 
 1) Download the **Appsody binaries for Windows** from  [Appsody releases page](https://github.com/appsody/appsody/releases). The file is named `appsody-v.r.m-windows.tar`, where `v.r.m` indicates the release tag.

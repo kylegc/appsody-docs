@@ -1,10 +1,10 @@
 ---
-title: Creating an Appsody Project
-path: /docs/using-appsody/creating-project
+title: Creating Appsody Projects
 section: Using Appsody
+path: /docs/using-appsody/creating-project
 ---
 
-# Creating an Appsody Project
+# Creating Appsody Projects
 
 ## New Project from Template
 The easiest way to create an Appsody project is to start a new project from a stack template. 

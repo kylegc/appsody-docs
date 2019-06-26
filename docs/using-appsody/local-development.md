@@ -1,10 +1,10 @@
 ---
-title: Local Development
-path: /docs/using-appsody/local-development
+title: "Appsody Local Development"
 section: Using Appsody
+path: /docs/using-appsody/local-development
 ---
 
-# Local Development with Appsody
+# Appsody Local Development
 You can start the Appsody development container in three modes: run, debug, and test. You should only execute one of these at a time unless you overwrite the name and port options (see [Advanced Options](#advanced-options) below).
 
 While running the container in any of these modes, you can quit Appsody by pressing `Ctrl-C` or running `appsody stop` in the terminal.

@@ -1,5 +1,7 @@
 ---
 title: "Building and Deploying Appsody"
+section: Using Appsody
+path: /docs/using-appsody/building-and-deploying
 ---
 
 # Getting ready to deploy your Appsody project
