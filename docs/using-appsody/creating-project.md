@@ -28,7 +28,7 @@ java-microprofile	0.2.0  	Microprofile using Adopt OpenJDK and Maven
 java-spring-boot2	0.2.0  	Spring Boot using IBM Java SDK and Maven
 ```
 
-Then, run `appsody init <stack>` for the stack of your choice. This will download the project template for the stack and initialize Appsody for your local development.
+Then, run `appsody init <stack>` for the stack of your choice. This will download the default project template for the stack and initialize Appsody for your local development.
 
 Now you have a fully functional Appsody project. See the [Local Development](local-development.md) document for more details on running the project.
 

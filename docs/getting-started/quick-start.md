@@ -42,4 +42,4 @@ You are ready to continue developing your application. To stop the container, pr
 
 Finally, when you are ready to publish a production docker image, run `appsody build`. 
 
-**Tip:** You can get more information about the all the commands with `appsody help` or `appsody help <command>`.
+**Tip:** You can get more information about all the commands with `appsody help [command]` or `appsody <command> --help`.

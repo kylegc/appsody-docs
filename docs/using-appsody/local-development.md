@@ -12,10 +12,10 @@ While running the container in any of these modes, you can quit Appsody by press
 Each stack may open different ports and behave slightly differently across these modes. See your stack's documentation for further details.
 
 ## appsody run
-The `appsody run` command starts the development container in normal run mode. This will be most similar to running your application in production. Appsody watches your local project directory for file changes and hot swaps the application to reflect code changes as you develop.
+The `appsody run` command starts the development container in normal run mode. This mode will most closely resemble your application running in production. Appsody watches your local project directory for file changes and hot swaps the application to reflect code changes as you develop.
 
 ## appsody debug
-The `appsody debug` command starts the development container with a debugger enabled. Typically, the stack provides a debug port which connect to your IDE. Then you can set breakpoints and step through code as it runs in the container. 
+The `appsody debug` command starts the development container with a debugger enabled. Typically, the stack provides a debug port which connects to your IDE. Then you can set breakpoints and step through code as it runs in the container. 
 
 ## appsody test
 The `appsody test` command runs the test suite for your application in the container. See the stack's documentation on how to define tests for the application.
