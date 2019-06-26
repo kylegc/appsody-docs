@@ -8,7 +8,7 @@ section: Getting Started
 
 ## Installing Appsody
 
-Prerequisite: [Docker](https://docs.docker.com/install/) is installed and running.
+**Prerequisite:** [Docker](https://docs.docker.com/install/) is installed and running.
 
 To install Appsody on macOS, run the following commands:
 ```
@@ -38,6 +38,8 @@ Great! Now the project is running in a docker container, and the container is li
 
 Finally, let's try changing the code. Edit the file `app.js` to output something other than "Hello World!". Upon saving the file, Appsody will pickup the change and automatically update the container. Refresh <http://localhost:3000> to see the new message!
 
-You are ready to continue developing your application. To stop the container, press Ctrl-C in the terminal or run `appsody stop`. To enable the debugger, run `appsody debug`. 
+You are ready to continue developing your application. To stop the container, press `Ctrl-C` in the terminal. To enable the debugger, restart the container with `appsody debug`. 
 
 Finally, when you are ready to publish a production docker image, run `appsody build`. 
+
+**Tip:** You can get more information about the all the commands with `appsody help` or `appsody help <command>`.
